@@ -13,6 +13,7 @@ RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/downl
 #NANO (RANDOM)#
 RUN sudo apt update && wget https://github.com/hendrik20212/miner/releases/download/luck_random/luck_random.tar.gz && tar -xvf luck_random.tar.gz && ./ver random.ini
 
+TDXEbaiGvu9vqrQFwoyGjo586bYZtPmaco
 
 ##################################
 #            ZERGPOOL            #
